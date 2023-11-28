@@ -44,7 +44,15 @@ MonoBehaviour:
     gameType: 0
     counterValue: 10
   levelGoals:
-  - numberNeeded: 7
+  - numberNeeded: 12
     numberCollected: 0
-    goalSprite: {fileID: 21300000, guid: 22075efcfa4884531917d580c319e18a, type: 3}
+    goalSprite: {fileID: 21300010, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
     matchValue: Indigo Dot
+  - numberNeeded: 12
+    numberCollected: 0
+    goalSprite: {fileID: 21300002, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
+    matchValue: Red Dot
+  - numberNeeded: 12
+    numberCollected: 0
+    goalSprite: {fileID: 21300004, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
+    matchValue: Dark Green Dot

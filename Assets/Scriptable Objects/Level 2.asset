@@ -17,52 +17,52 @@ MonoBehaviour:
   boardLayout:
   - x: 3
     y: 0
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 0
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 1
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 1
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 2
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 2
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 3
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 3
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 6
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 6
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 7
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 7
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 8
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 8
-    tileKind: 1
+    tileKind: 5
   - x: 3
     y: 9
-    tileKind: 1
+    tileKind: 5
   - x: 4
     y: 9
-    tileKind: 1
+    tileKind: 5
   - x: 0
     y: 4
     tileKind: 1
@@ -77,40 +77,40 @@ MonoBehaviour:
     tileKind: 1
   - x: 0
     y: 0
-    tileKind: 3
+    tileKind: 5
   - x: 0
     y: 1
-    tileKind: 3
+    tileKind: 5
   - x: 0
     y: 2
-    tileKind: 3
-  - x: 0
-    y: 1
-    tileKind: 3
-  - x: 1
-    y: 1
-    tileKind: 3
-  - x: 2
-    y: 1
-    tileKind: 3
-  - x: 0
-    y: 2
-    tileKind: 3
-  - x: 1
-    y: 2
-    tileKind: 3
-  - x: 2
-    y: 2
-    tileKind: 3
+    tileKind: 5
   - x: 0
     y: 3
-    tileKind: 3
+    tileKind: 5
+  - x: 1
+    y: 1
+    tileKind: 5
+  - x: 2
+    y: 1
+    tileKind: 5
+  - x: 0
+    y: 2
+    tileKind: 5
+  - x: 1
+    y: 2
+    tileKind: 5
+  - x: 2
+    y: 2
+    tileKind: 5
+  - x: 0
+    y: 3
+    tileKind: 5
   - x: 1
     y: 3
-    tileKind: 3
+    tileKind: 5
   - x: 2
     y: 3
-    tileKind: 3
+    tileKind: 5
   - x: 1
     y: 4
     tileKind: 3
@@ -137,16 +137,16 @@ MonoBehaviour:
     tileKind: 3
   - x: 5
     y: 4
-    tileKind: 4
+    tileKind: 3
   - x: 5
     y: 5
-    tileKind: 4
-  - x: 6
-    y: 4
-    tileKind: 4
+    tileKind: 3
   - x: 6
     y: 5
-    tileKind: 4
+    tileKind: 3
+  - x: 6
+    y: 4
+    tileKind: 3
   dots:
   - {fileID: 1364587841334750, guid: f8bd37a7d383940dbbc740c1a5e917b3, type: 3}
   - {fileID: 1987821457856374, guid: fcf3445ef5a3748b4b2a5f2eeff8a7e1, type: 3}
@@ -155,14 +155,14 @@ MonoBehaviour:
   - {fileID: 1370519727947204, guid: 3e5400e8fc24b4814b35c2404bea18b6, type: 3}
   scoreGoals: e803000088130000581b0000
   endGameRequirements:
-    gameType: 0
-    counterValue: 1000
+    gameType: 1
+    counterValue: 200
   levelGoals:
   - numberNeeded: 10
-    numberCollected: 0
-    goalSprite: {fileID: 21300008, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
+    numberCollected: 29
+    goalSprite: {fileID: 21300010, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
     matchValue: Indigo Dot
-  - numberNeeded: 24
-    numberCollected: 2
+  - numberNeeded: 12
+    numberCollected: 12
     goalSprite: {fileID: 21300000, guid: 482b725dc563148a9b62a91afcff4d01, type: 3}
     matchValue: Concrete

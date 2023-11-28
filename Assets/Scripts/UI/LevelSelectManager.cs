@@ -37,7 +37,7 @@ public class LevelSelectManager : MonoBehaviour
 
     public void PageRight() {
         if(page < panels.Length - 1) {
-            currentPanel.SetActive(true);
+            currentPanel.SetActive(false);
             page++;
             currentPanel = panels[page];
             currentPanel.SetActive(true );
@@ -46,7 +46,7 @@ public class LevelSelectManager : MonoBehaviour
 
     public void PageLeft() {
         if (page > 0) {
-            currentPanel.SetActive(true);
+            currentPanel.SetActive(false);
             page--;
             currentPanel = panels[page];
             currentPanel.SetActive(true);
