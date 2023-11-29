@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4737306495940310}
   - component: {fileID: 212315419917601216}
   m_Layer: 0
-  m_Name: rainbow bomb
+  m_Name: Rainbow Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

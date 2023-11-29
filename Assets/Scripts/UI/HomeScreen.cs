@@ -27,7 +27,11 @@ public class HomeScreen : MonoBehaviour
 
     public void ExitGame()
     {
-        Debug.Log("Quit game!!");
+        Debug.Log("Quit game!");
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
         Application.Quit();
     }
 }
