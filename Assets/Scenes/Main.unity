@@ -399,7 +399,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 807828941}
-  - {fileID: 2074583420}
   - {fileID: 1541576252}
   m_Father: {fileID: 1505387036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2763,7 +2762,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2074583420}
   m_Father: {fileID: 1505387036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1246658217
@@ -2783,6 +2783,8 @@ MonoBehaviour:
   soundButton: {fileID: 206022429}
   musicOnSprite: {fileID: 21300000, guid: df03ce3ee524343a19d18430ed6dd0a2, type: 3}
   musicOffSprite: {fileID: 21300000, guid: 3ff0bb724394d4c858639ea83a3f13c4, type: 3}
+  bgrSound:
+  - {fileID: 2074583421}
 --- !u!1 &1326990775
 GameObject:
   m_ObjectHideFlags: 0
@@ -4248,11 +4250,11 @@ Transform:
   m_GameObject: {fileID: 2074583419}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -196.70337, y: -1112.7714, z: -19.258888}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 136911263}
+  m_Father: {fileID: 1246658216}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2074583421
 AudioSource:
@@ -4268,7 +4270,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

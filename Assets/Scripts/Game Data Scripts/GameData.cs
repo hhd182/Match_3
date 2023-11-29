@@ -87,9 +87,4 @@ public class GameData : MonoBehaviour {
     {
         Save();
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

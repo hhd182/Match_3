@@ -12,11 +12,10 @@ public class PauseManager : MonoBehaviour {
     public Image soundButton;
     public Sprite musicOnSprite;
     public Sprite musicOffSprite;
+    public AudioSource[] bgrSound;
 
-	// Use this for initialization
-	void Start () {
-        // In Player Prefs, the "Sound" key is for sound
-        // If sound == 0, then mute, if sound == 1, then unmute
+    // Use this for initialization
+    void Start () {
         if(PlayerPrefs.HasKey("Sound"))
         {
             if(PlayerPrefs.GetInt("Sound") == 0)
@@ -25,6 +24,7 @@ public class PauseManager : MonoBehaviour {
             }
             else{
                 soundButton.sprite = musicOnSprite;
+                bgrSound[0].Play();
             }
         }else{
             soundButton.sprite = musicOnSprite;
@@ -55,11 +55,13 @@ public class PauseManager : MonoBehaviour {
             {
                 soundButton.sprite = musicOnSprite;
                 PlayerPrefs.SetInt("Sound", 1);
+                bgrSound[0].Play();
             }
             else
             {
                 soundButton.sprite = musicOffSprite;
                 PlayerPrefs.SetInt("Sound", 0);
+                bgrSound[0].Stop();
             }
         }
         else
