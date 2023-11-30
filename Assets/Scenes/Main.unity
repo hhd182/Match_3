@@ -2783,8 +2783,7 @@ MonoBehaviour:
   soundButton: {fileID: 206022429}
   musicOnSprite: {fileID: 21300000, guid: df03ce3ee524343a19d18430ed6dd0a2, type: 3}
   musicOffSprite: {fileID: 21300000, guid: 3ff0bb724394d4c858639ea83a3f13c4, type: 3}
-  bgrSound:
-  - {fileID: 2074583421}
+  bgrSound: {fileID: 2074583421}
 --- !u!1 &1326990775
 GameObject:
   m_ObjectHideFlags: 0
