@@ -28,5 +28,5 @@ MonoBehaviour:
   levelGoals:
   - numberNeeded: 6
     numberCollected: 0
-    goalSprite: {fileID: 21300010, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
+    goalSprite: {fileID: 21300000, guid: 3b56dd8a7fa44f04da8a53582ece91d9, type: 3}
     matchValue: Indigo Dot
