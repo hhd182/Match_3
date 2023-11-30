@@ -159,10 +159,10 @@ MonoBehaviour:
     counterValue: 200
   levelGoals:
   - numberNeeded: 10
-    numberCollected: 29
-    goalSprite: {fileID: 21300010, guid: 988a3fce630a14b63a3e5e82e1f1226a, type: 3}
+    numberCollected: 3
+    goalSprite: {fileID: 21300000, guid: 3b56dd8a7fa44f04da8a53582ece91d9, type: 3}
     matchValue: Indigo Dot
   - numberNeeded: 12
-    numberCollected: 12
+    numberCollected: 0
     goalSprite: {fileID: 21300000, guid: 482b725dc563148a9b62a91afcff4d01, type: 3}
     matchValue: Concrete
